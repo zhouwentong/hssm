@@ -41,7 +41,7 @@ $(function(){
 })
 $(function(){
 		//文字轮播
-        var $this = $(".m3 .b");
+        var $this = $(".m3 .br1");
         var scrollTimer;
         $this.hover(function(){
               clearInterval(scrollTimer);
@@ -58,3 +58,12 @@ function scrollNews(obj){
          $self.css({"margin-top":"0px"}).find("li:first").appendTo($self); 
    })
 }
+$(function(){
+	$("#btn2").click(function(e) {
+        $(".m11").css("display","block")
+    });
+	$(".m11 a").click(function(e) {
+         $(".m11").css("display", "none");
+		 return false ;
+    });
+	})
