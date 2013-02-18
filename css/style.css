@@ -116,7 +116,7 @@ body{background:url(../img/body.jpg) no-repeat center 33px #fff;}
 #b .r{margin-bottom:10px;}
 #b .r1{margin-bottom:85px;}
 /*-------------------头尾--------------------------*/
-#h .r1 ul{text-align:center; padding:15px 0; margin-bottom:294px;}
+#h .r1 ul{text-align:center; padding:15px 0; margin-bottom:348px;}
 #h .r1 li{display:inline; line-height:28px; margin-right:40px;}
 #h .r1 a{font-size:22px; font-weight:bold; padding-left:28px;}
 #h .r1 .l1{color:#1F8BCF; background:url(../img/h-l1.png) no-repeat;}
@@ -136,7 +136,10 @@ body{background:url(../img/body.jpg) no-repeat center 33px #fff;}
 .m2 .br2 li{margin:0 7px; padding:9px 0;}
 .m2 .br2 img{border:4px solid #D8DADA;}
 /*-------------------投票规则与奖励m3--------------------------*/
-.m3 .b{background:#fff; padding:15px; width:218px; height:350px; overflow:hidden;_ height:348px}
+.m3 .b{background:#fff; padding:15px; width:218px;}
+.m3 .br1{height:314px; overflow:hidden;}
+.m3 .br2{text-align:center;}
+#btn2{background:url(../img/m3-a.png) no-repeat; width:123px; height:31px; line-height:31px; font-size:14px; font-weight:bold; color:#fff; border:none; margin-top:10px; cursor:pointer;}
 .m3 li{color:#969393; font-size:14px; line-height:24px; text-indent:2em;}
 /*-------------------我要投票m4--------------------------*/
 .m4 .h{background:url(../img/m4-h.png) no-repeat; height:36px;}
@@ -144,6 +147,8 @@ body{background:url(../img/body.jpg) no-repeat center 33px #fff;}
 .m4 dl{margin:0 10px; padding:10px 0;}
 .m4 dl a{display:block;}
 .m4 dt{font-weight:bold; padding:5px 0;}
+.m4 .l2{display:inline-block; width:115px; font-weight:bold;}
+.m4 dt a{display:inline; color:#FD61A5;}
 .m4 .btn{text-align:center; margin-top:8px;}
 .m4 .l1{color:#FD61A5;}
 #btn{background:url(../img/btn.png) no-repeat; padding-left:42px; width:123px; height:31px; border:none; cursor:pointer; font-size:14px; font-weight:bold; color:#fff;}
@@ -182,3 +187,9 @@ body{background:url(../img/body.jpg) no-repeat center 33px #fff;}
 .m10 li{display:inline; margin-right:10px;}
 .m10 h2{font-size:14px;}
 .m10 .b{padding-left:18px;}
+/*-------------------中奖名单m11--------------------------*/
+.m11{background:rgba(0,169,243,0.7);filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#4b00a9f3,endColorStr=#4b00a9f3); zoom:1; position:fixed; bottom:400px; width:300px; margin-left:300px; display:none;}
+.m11 .h{text-align:center;}
+.m11 .b{padding:10px;}
+.m11 li{margin:0 10px; padding:10px 0;}
+* html .m11{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||400)));}
