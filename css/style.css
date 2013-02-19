@@ -143,15 +143,15 @@ body{background:url(../img/body.jpg) no-repeat center 33px #fff;}
 .m3 li{color:#969393; font-size:14px; line-height:24px; text-indent:2em;}
 /*-------------------我要投票m4--------------------------*/
 .m4 .h{background:url(../img/m4-h.png) no-repeat; height:36px;}
-.m4 .b{background:#fff; padding:23px 26px 13px;}
+.m4 .b{background:#fff; padding:23px 20px 13px;}
 .m4 dl{margin:0 10px; padding:10px 0;}
 .m4 dl a{display:block;}
 .m4 dt{font-weight:bold; padding:5px 0;}
 .m4 .l2{display:inline-block; width:115px; font-weight:bold;}
 .m4 dt a{display:inline; color:#FD61A5;}
-.m4 .btn{text-align:center; margin-top:8px;}
+.m4 .btn{margin-top:8px;}
 .m4 .l1{color:#FD61A5;}
-#btn{background:url(../img/btn.png) no-repeat; padding-left:42px; width:123px; height:31px; border:none; cursor:pointer; font-size:14px; font-weight:bold; color:#fff;}
+#btn{background:url(../img/btn.png) no-repeat; padding-left:25px; width:106px; height:31px; border:none; cursor:pointer; font-size:14px; font-weight:bold; color:#fff;}
 /*-------------------蜜月旅行线路m5--------------------------*/
 .m5 .b{background:rgba(164,222,249,0.7);filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#4ba4def9,endColorStr=#4ba4def9); zoom:1; padding:10px 0;}
 .m5 li{width:45%; background:url(../img/m5-li.png) no-repeat right top; padding:10px 25px 10px 20px;}
